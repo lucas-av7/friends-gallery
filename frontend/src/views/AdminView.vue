@@ -35,7 +35,7 @@ onBeforeMount(async () => {
   } catch (err) {
     pendingPhotos.value = [];
     globals.$emitter.emit("flag-message", {
-      content: "Unable to retrieve pending approved photos.",
+      content: "Unable to retrieve pending photos.",
       modifier: "error",
     });
   }
