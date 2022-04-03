@@ -26,9 +26,9 @@ cp .env.example .env
 
 Fill the blank information in the .env file
 
-**SECRET_KEY:** Backend secret key (required)
-**USE_AWS_S3:** Ue AWS S3 as storage provider (0=OFF, 1=ON)
-**IMGBB_API_KEY:** Required when USE_AWS_S3=0. Get api key in the [Imgbb](https://imgbb.com/) website
+- **SECRET_KEY:** Backend secret key (required)
+- **USE_AWS_S3:** Ue AWS S3 as storage provider (0=OFF, 1=ON)
+- **IMGBB_API_KEY:** Required when USE_AWS_S3=0. Get api key in the [Imgbb](https://imgbb.com/) website
 
 ### Init MongoDB database
 
