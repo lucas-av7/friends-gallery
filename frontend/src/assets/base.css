@@ -1,0 +1,32 @@
+:root {
+  font-size: 62.5%;
+  --primary-color: #735d78;
+  --secondary-color: #d1b3c4;
+  --text-primary-color: #0d1b2a;
+  --text-secondary-color: #ffffff;
+  --green-color: #2a9d8f;
+  --orange-color: #fca311;
+  --red-color: #e63946;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6em;
+  min-height: 100vh;
+
+  /* Created with https://www.css-gradient.com */
+  background: #e3c3b6;
+  background: -webkit-linear-gradient(bottom right, #e3c3b6, #aa83c1);
+  background: -moz-linear-gradient(bottom right, #e3c3b6, #aa83c1);
+  background: linear-gradient(to top left, #e3c3b6, #aa83c1);
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "debug": "vite debug",
+    "preview": "vite preview --port 5050",
+    "test:unit": "vitest --environment jsdom",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path ../.gitignore"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "~6.1.1",
+    "@fortawesome/free-regular-svg-icons": "~6.1.1",
+    "@fortawesome/free-solid-svg-icons": "~6.1.1",
+    "@fortawesome/vue-fontawesome": "~3.0.0-5",
+    "axios": "~0.26.1",
+    "mitt": "~3.0.0",
+    "validator": "~13.7.0",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@types/validator": "~13.7.2",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "jsdom": "^19.0.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.8.4",
+    "vitest": "^0.5.0"
+  }
+}
