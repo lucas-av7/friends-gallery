@@ -114,6 +114,22 @@ To create admin user you need to make a POST api call to <http://localhost:5000/
 - [Imgbb](https://imgbb.com/): Storage provider
 - [AWS S3](https://aws.amazon.com/pt/s3/): Storage provider
 
+## Run tests
+
+```bash
+# Backend
+cd backend
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements-dev.txt
+pytest
+
+# Frontend
+cd frontend
+npm i
+npm run test:unit
+```
+
 ## Notes
 
 To avoid multiple requests from the server, we are using the vue `keep-alive` built-in component. It creates a cache of the page visited (max: 5). It means that if the admin user deletes or approves a photo on the admin panel and goes back to the home page, the admin may need to refresh the browser to request the last changes from the server.
