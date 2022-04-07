@@ -1,3 +1,9 @@
+<script>
+export default {
+  name: "PhotoView",
+};
+</script>
+
 <script setup>
 import { onBeforeMount, getCurrentInstance, ref, inject } from "vue";
 import { useRoute } from "vue-router";

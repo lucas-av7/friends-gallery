@@ -132,4 +132,4 @@ npm run test:unit
 
 ## Notes
 
-To avoid multiple requests from the server, we are using the vue `keep-alive` built-in component. It creates a cache of the page visited (max: 5). It means that if the admin user deletes or approves a photo on the admin panel and goes back to the home page, the admin may need to refresh the browser to request the last changes from the server.
+To avoid multiple requests from the server, we are using the vue `keep-alive` built-in component. It creates a cache of the page visited. It means that if the admin user deletes or approves a photo on the admin panel and goes back to the home page, the admin may need to refresh the browser to request the last changes from the server.

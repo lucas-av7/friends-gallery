@@ -35,7 +35,7 @@ onBeforeMount(async () => {
   <FlagsContainer />
 
   <RouterView v-slot="{ Component }">
-    <KeepAlive :max="5">
+    <KeepAlive exclude="PhotoView">
       <component :is="Component"></component>
     </KeepAlive>
   </RouterView>
